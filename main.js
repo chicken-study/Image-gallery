@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* 添加图片循环 */
 
-for (var i = 1; i <= 5; ++i) {
+for (let i = 1; i <= 5; ++i) {
   const newImage = document.createElement('img');
   newImage.setAttribute('src', "images/pic" + i + ".jpg");
   thumbBar.appendChild(newImage);
